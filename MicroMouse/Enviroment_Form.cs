@@ -19,7 +19,7 @@ namespace MicroMouse
             InitializeComponent();
         }
 
-        private void Enviroment_Load(object sender, EventArgs e)
+        private void Enviroment_Load(object sender, EventArgs e)//
         {
             DataBase.initMap();
             PictureBox_MainCanvas.Size = Size.Round(
